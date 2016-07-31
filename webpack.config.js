@@ -1,11 +1,16 @@
 var path = require('path');
 
+// 定义路径
+var ROOT_PATH = path.resolve(__dirname);
+var APP_PATH = path.resolve(ROOT_PATH, 'app');
+var BUILD_PATH = path.resolve(ROOT_PATH, 'dist');
+
 module.exports = {
     // 入口
     entry: './src/main',
     // 输出
     output: {
-        path: path.join(__dirname, './dist'),
+        path: BUILD_PATH,
         filename: '[name].js',
         publicPath: '/dist/'
     },

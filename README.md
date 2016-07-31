@@ -4,7 +4,7 @@
 
 <img width="600" height="400" src="http://coffcer.github.io/vue-chat/dist/images/intro.jpg">
 
-### Setup
+### 安装
 
 ```
 npm install
