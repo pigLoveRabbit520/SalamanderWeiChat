@@ -23,6 +23,11 @@ if (!localStorage.getItem(key)) {
                 id: 3,
                 name: 'webpack',
                 img: 'dist/images/3.jpg'
+            },
+            {
+                id: 4,
+                name: 'game',
+                img: 'dist/images/3.jpg'
             }
         ],
 
@@ -36,13 +41,17 @@ if (!localStorage.getItem(key)) {
                         date: now
                     }, 
                     {
-                        text: '项目地址: https://github.com/coffcer/vue-chat',
+                        text: '项目地址: https://github.com/coffcer/vue-chat，不错',
                         date: now
                     }
                 ]
             },
             {
                 userId: 3,
+                messages: []
+            },
+            {
+                userId: 4,
                 messages: []
             }
         ],
